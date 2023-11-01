@@ -1,5 +1,5 @@
 /*
- * find-pan (c) 2020 Stephen Garriga <Stephen.Garriga@ncr.com>
+ * find-pan (c) 2020-2023 Stephen Garriga <Stephen.Garriga@ncr.com>
  * find-pan (c) 2020 David Means <David.Means@ncr.com>
  * ccsrch   (c) 2012-2016 Adam Caudill <adam@adamcaudill.com>
  *          (c) 2007 Mike Beekey <zaphod2718@yahoo.com>
@@ -49,7 +49,7 @@
 #define CARDSIZE      17
 
 static const char PROG_VER[][80] = { 
-	"find-pan 1.2.1 (c) 2020 Stephen Garriga <Stephen.Garriga@ncr.com>",
+	"find-pan 1.2.1 (c) 2020-2023 Stephen Garriga <Stephen.Garriga@ncr.com>",
 	"find-pan 1.2.0 (c) 2020 David Means <David.Means@ncr.com>",
 	"ccsrch 1.0.9   (c) 2012-2016 Adam Caudill <adam@adamcaudill.com>" ,
 	"               (c) 2007 Mike Beekey <zaphod2718@yahoo.com>",
@@ -980,7 +980,7 @@ usage (const char *progname)
 	printf ("    -c\t\t   Show a count of hits per file (only when using -o)\n");
 	printf ("    -s\t\t   Show live status information (only when using -o)\n");
 	printf ("    -l N\t   Limits the number of results from a single file before going on to the next file.\n");
-	printf ("    -n <list>      File extensions to exclude (i.e .dll,.exe)\n");
+	printf ("    -n <list>      File extensions to exclude (e.g., .json,.tc)\n");
 	printf ("    -m\t\t   Toggle PAN number masking.\n");
 	printf ("    -v\t\t   Be more verbose when characters are found before or after PAN\n");
 	printf ("    -w\t\t   Check for card matches wrapped across lines.\n");

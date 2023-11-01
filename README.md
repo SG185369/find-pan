@@ -27,7 +27,7 @@ Usage: ./find-pan <options> <start path>
     -s             Show live status information (only when using -o)
     -l N           Limits the number of results from a single file before going
                    on to the next file.
-    -n <list>      File extensions to exclude (i.e .dll,.exe)
+    -n <list>      File extensions to exclude (e.g., .json,.tc)
     -m             Toggle PAN number masking (now ON by default).
     -w             Check for card matches wrapped across lines.
     -x             Don't display file stat errors (not found, etc.)
@@ -39,7 +39,9 @@ Usage: ./find-pan <options> <start path>
 Updated Source for Credit Card Prefixes:  
 https://en.wikipedia.org/wiki/Payment_card_number#Issuer_identification_number_(IIN)
 
-Updated to look for Visa, Mastercartd, American Express, Discover, JCB, UnionPay, & Diners Club only
+Updated to look for Visa, Mastercard, American Express, Discover, JCB, UnionPay, & Diners Club only
+Mask PANs by default
+Allow for comment lines (start with #) in ignore files
 
 ### Building
 ```
