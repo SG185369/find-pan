@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/adamcaudill/find-pan.svg?branch=master)](https://travis-ci.org/adamcaudill/ccsrch)
 
-FIND-PAN is a linux for searching filesystems for credit card information, based on Adam Caudill's fork of Mike Beekey's ccsrch.
+FIND-PAN is a linux for searching filesystems for credit card information, based on Adam Caudill's fork of Mike Beekey's ccsrch. I've renamed, updated the prefix rules and tweaked & tidied-up for NPP's Linux-only needs.
 
 This program is free software; you can redistribute it and/or modify it under  the terms of the GNU General Public License as published by the Free  Software Foundation; either version 2 of the License, or (at your option)  any later version.
 
